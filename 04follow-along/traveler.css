@@ -1,0 +1,124 @@
+body {
+    font-family: "Gravitas One", serif;
+    margin: 0;
+}
+
+/* header stuff here */
+header {
+    background-color: dimgray;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: blanchedalmond;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: black
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: blanchedalmond;
+}
+
+nav li.active a {
+    background-color: blanchedalmond;
+    color: black
+}
+
+nav li a:hover {
+    color: burlywood
+}
+
+
+/* main stuff here */
+main {
+    padding: 1rem 10px;
+
+}
+
+main h1 {
+    color: darkgreen
+}
+
+main h2 {
+    color: black;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: black
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #efefef
+}
+main dl dt{
+color:darkgreen;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+main dl dd{
+   color:darkgrey;
+   font-size: .9rem;
+   margin-left: 20px;
+}
+main ul {
+   list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 700;
+    color: black;
+}
+main em { 
+    font-weight: 300;
+}
+main address {
+font-style: normal;
+background-color: blanchedalmond;
+padding: .5rem;
+border-radius: 10px;
+border: 1px solid darkgreen;
+width: 224px;
+}
+main a {
+    color: lightblue;
+}
+main a:hover {
+    color:darkgreen;
+}
+
+
+/* footer stuff here */
+footer {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color:gray
+}
+footer p{
+    margin: 0;
+    letter-spacing: 4px;
+}
